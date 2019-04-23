@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+/* Common */
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,a,button,select{margin:0;padding:0;font-weight:normal}
+body,input,textarea,select,button,table{font-family:Avenir,'Lato',"나눔바른고딕",NanumBarunGothic,"애플 SD 산돌고딕 Neo","Apple SD Gothic Neo","나눔고딕",NanumGothic,"맑은 고딕","Malgun Gothic","돋움",dotum,AppleGothic,sans-serif;font-size:12px;-webkit-text-size-adjust:none}
+body{position:relative}
+img,fieldset{border:0}
+img{vertical-align:top}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+hr,legend{display:none}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline;}
+textarea{resize:none}
+.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:-9999px;width:0;height:0;font-size:0;line-height:0}
+html,body{height:100%}
+
+header{position: relative;padding:15px 20px;border-bottom:1px solid #ddd;}
+header h1{display: inline-block;margin-right:20px;}
+header h1 a{color:#555;}
+header nav {display: inline-block;}
+header nav:before{content:"{ "}
+header nav:after{content:" }"}
+header nav a{display: inline-block;margin-left:10px;}
+header nav a:first-child{margin-left:0;}
+
+main h1{position: relative;z-index:2;background:#333;padding:40px 20px;color:#fff;text-align: center;text-shadow: 0 0 5px rgba(0, 0, 0, .8)}
+main h1:before{content:"";position: absolute;top:0;bottom:0;left:0;right:0;z-index:-1;background: url("../images/header_title_bg.jpg") no-repeat 50% 50%; background-size:cover;opacity: 0.6;}
